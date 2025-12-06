@@ -39,15 +39,6 @@ $env:HOST_PATH="C:\Users\YourName\Desktop\FilesToScan"; docker-compose up --buil
 ```powershell
 HOST_PATH="./my_folder" docker-compose up --build
 ```
-### When you have already build the container (run the previous command and did not removed them)
-#### For Windows (Powershell)
-```powershell
-$env:HOST_PATH="C:\Users\YourName\Desktop\FilesToScan"; docker-compose start 
-```
-#### Mac or Linux (Bash)
-```powershell
-HOST_PATH="./my_folder" docker-compose start
-```
 
 # ⚙️ Configuration & Ports
 
